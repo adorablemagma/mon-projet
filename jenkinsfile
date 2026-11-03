@@ -26,6 +26,8 @@ pipeline {
                 bat 'echo === TEST ==='
                 bat 'git status'
                 bat 'echo Tests termines avec succes'
+		  sh 'grep -q "<html" index.html'
+                sh 'grep -q "<h1" index.html'
             }
         }
 
