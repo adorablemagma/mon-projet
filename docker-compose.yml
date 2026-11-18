@@ -1,0 +1,6 @@
+services:
+web:
+image: votre_username/monapp:latest
+ports:
+- "4040:40"
+restart: unless-stopped
