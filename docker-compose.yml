@@ -2,5 +2,5 @@ services:
 web:
 image: votre_username/monapp:latest
 ports:
-- "4040:40"
+- "8084:80"
 restart: unless-stopped
